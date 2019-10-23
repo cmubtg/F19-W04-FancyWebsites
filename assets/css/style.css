@@ -1,0 +1,122 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #000000;
+    /* Add a better body font here! */
+}
+
+h1, h2 {
+    /* Add a better header font here! */
+}
+
+/* -- Project Cards -- */
+
+.card {
+    transition: transform .5s;
+    transform-style: preserve-3d;
+}
+
+/* BTG: Add a cool hover effect for the cards here! */
+
+/* -- Cover Image -- */
+
+#cover {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* BTG: Hide the image here! */
+}
+
+#cover img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* BTG: Set the z-index to 1 here! */
+}
+
+/* BTG: Add the active class here! */
+
+/* -- Read More Button -- */
+
+/* BTG: Make the button cool here! */
+
+#read-more {
+    /* BTG: Hide this area here! */
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 50px;
+    z-index: 3;
+}
+
+/* BTG: Add a cool hover effect here! */
+
+#down-arrow .fa {
+    color: #6f6f6f;
+    margin-top: -20px;
+    font-size: 5em;
+}
+
+/* -- Nothing to change below here -- */
+
+h1 { font-size: 3em; }
+
+h2 { font-size: 2em; }
+
+.row { padding: 80px 10%; }
+
+.project { perspective: 600px; }
+
+.fas {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Colors */
+
+.highlight { color: #ddd; }
+
+p, .muted { color: #999; }
+
+.bg-gray { background-color: #111; }
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Contact Form */
+
+.form-control {
+    border: 1px solid #999;
+    background-color: #111;
+    color: #ddd;
+}
+
+.form-group {
+    text-align: left;
+}
+
+label {
+    color: #ddd;
+}
+
+/* Particles */
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    transition: opacity 1s;
+}
